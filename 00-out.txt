@@ -1,0 +1,7 @@
+------function call with n =  6
+------function call with n =  5
+------function call with n =  4
+------function call with n =  3
+------function call with n =  2
+------function call with n =  1
+720
