@@ -3,16 +3,19 @@
 using namespace std;
 void print_triangle(int n)
 {
-	if (n == 0)
+	if(n == 0)
 	{
 		return;
 	}
-	print_triangle(n - 1);
-	for (int i = 0; i < n; i++)
+	else
 	{
-		cout << '*';
+		for (int i = 0; i < n; i++)
+		{
+			cout << '*';
+		}
+		cout << endl;
 	}
-	cout << endl;
+	print_triangle(n - 1);
 }
 int main()
 {
