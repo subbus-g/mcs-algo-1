@@ -7,15 +7,12 @@ void print_triangle(int n)
 	{
 		return;
 	}
-	else
-	{
-		for (int i = 0; i < n; i++)
-		{
-			cout << '*';
-		}
-		cout << endl;
-	}
 	print_triangle(n - 1);
+	for (int i = 0; i < n; i++)
+	{
+		cout << '*';
+	}
+	cout << endl;
 }
 int main()
 {
